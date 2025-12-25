@@ -37,31 +37,6 @@ O objetivo é criar uma ponte entre o usuário no Discord e o banco de dados do 
 * [.NET SDK](https://dotnet.microsoft.com/download) instalado.
 * Uma conta no [Discord Developer Portal](https://discord.com/developers/applications).
 
-### Passo a Passo
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/seu-usuario/VocaBot.git](https://github.com/seu-usuario/VocaBot.git)
-    cd VocaBot
-    ```
-
-2.  **Instale as dependências:**
-    ```bash
-    dotnet restore
-    ```
-
-3.  **Configure o Token:**
-    * Crie um arquivo ou edite a variável `token` no `Program.cs`.
-
-4.  **Permissões do Bot:**
-    * No painel do Discord Developer, vá em "Bot".
-    * Ative a opção **MESSAGE CONTENT INTENT** (Isso permite que o bot leia o comando `!voca`).
-
-5.  **Execute:**
-    ```bash
-    dotnet run
-    ```
-
 ---
 
 ## Exemplo de Uso
